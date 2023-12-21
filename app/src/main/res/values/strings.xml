@@ -153,4 +153,9 @@
     <string name="already_have_an_account_login_here">Already have an account ? Login Here</string>
     <string name="news">News</string>
     <string name="scan_nota">Scan Nota</string>
+    <string name="btnUpload">Upload</string>
+    <string name="btnGallery">Gallery</string>
+    <string name="btnCamera">Camera</string>
+    <string name="desc_upload">upload description</string>
+    <string name="empty_image_warning">Silakan masukkan berkas gambar terlebih dahulu!</string>
 </resources>
