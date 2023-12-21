@@ -83,6 +83,9 @@
     <string name="ninety_days">90 days</string>
     <string name="six_months">6 months</string>
 
+    <string name="img_desc_empty">image desc</string>
+    <string name="icon_desc_expense">expense icon desc</string>
+
     <string-array name="periods">
         <item>all transactions</item>
         <item>this month</item>
@@ -91,4 +94,6 @@
         <item>last six months</item>
         <item>Last Year</item>
     </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
