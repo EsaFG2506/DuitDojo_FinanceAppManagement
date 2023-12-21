@@ -5,4 +5,16 @@
         android:id="@+id/action_currency"
         android:title="@string/usd"
         app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_profile"
+        android:title="@string/menu_logout"
+        android:icon="@drawable/ic_account_circle"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="@string/menu_logout"
+        android:icon="@drawable/ic_baseline_exit"
+        app:showAsAction="ifRoom" />
 </menu>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.capstone.duitdojo_financeappmanagement.ui.DashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboardFragment_to_addTransactionFragment"
+            app:destination="@id/addTransactionFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_transactionDetailFragment"
+            app:destination="@id/transactionDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_bottomSheetFragment"
+            app:destination="@id/bottomSheetFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_reportsFragment2"
+            app:destination="@id/reportsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_settingsFragment2"
+            app:destination="@id/settingsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left"/>
+        <action
+            android:id="@+id/action_dashboardFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_newsActivity"
+            app:destination="@id/newsActivity" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_notaScansActivity"
+            app:destination="@id/notaScansActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/addTransactionFragment"
+        android:name="com.capstone.duitdojo_financeappmanagement.ui.AddTransactionFragment"
+        android:label="fragment_add_transaction"
+        tools:layout="@layout/fragment_add_transaction" />
+    <fragment
+        android:id="@+id/transactionDetailFragment"
+        android:name="com.capstone.duitdojo_financeappmanagement.ui.TransactionDetailFragment"
+        android:label="fragment_transaction_detail"
+        tools:layout="@layout/fragment_transaction_detail" >
+        <action
+            android:id="@+id/action_transactionDetailFragment_to_editTransactionFragment"
+            app:destination="@id/editTransactionFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left"
+            app:popUpToSaveState="true" />
+        <argument
+            android:name="transaction"
+            app:argType="com.capstone.duitdojo_financeappmanagement.data.model.TransactionModel" />
+    </fragment>
+    <fragment
+        android:id="@+id/editTransactionFragment"
+        android:name="com.capstone.duitdojo_financeappmanagement.ui.EditTransactionFragment"
+        android:label="fragment_edit_transaction"
+        tools:layout="@layout/fragment_edit_transaction" >
+        <argument
+            android:name="transaction"
+            app:argType="com.capstone.duitdojo_financeappmanagement.data.model.TransactionModel" />
+    </fragment>
+    <fragment
+        android:id="@+id/bottomSheetFragment"
+        android:name="com.capstone.duitdojo_financeappmanagement.dialog.BottomSheetFragment"
+        android:label="fragment_bottom_sheet"
+        tools:layout="@layout/fragment_bottom_sheet" />
+    <fragment
+        android:id="@+id/reportsFragment"
+        android:name="com.capstone.duitdojo_financeappmanagement.ui.ReportsFragment"
+        android:label="fragment_reports"
+        tools:layout="@layout/fragment_reports" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.capstone.duitdojo_financeappmanagement.ui.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <activity
+        android:id="@+id/newsActivity"
+        android:name="com.capstone.duitdojo_financeappmanagement.ui.news.NewsActivity"
+        android:label="activity_news"
+        tools:layout="@layout/activity_news" />
+    <activity
+        android:id="@+id/notaScansActivity"
+        android:name="com.capstone.duitdojo_financeappmanagement.ui.notascans.NotaScansActivity"
+        android:label="activity_nota_scans"
+        tools:layout="@layout/activity_nota_scans" />
+</navigation>
