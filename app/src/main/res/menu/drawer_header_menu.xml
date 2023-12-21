@@ -14,4 +14,16 @@
         android:title="@string/settings"
         />
 
+    <item
+        android:id="@+id/newsActivity"
+        android:icon="@drawable/ic_baseline_newspaper"
+        android:title="@string/news"
+        />
+
+    <item
+        android:id="@+id/notaScansActivity"
+        android:icon="@drawable/ic_baseline_photo_camera"
+        android:title="@string/scan_nota"
+        />
+
 </menu>

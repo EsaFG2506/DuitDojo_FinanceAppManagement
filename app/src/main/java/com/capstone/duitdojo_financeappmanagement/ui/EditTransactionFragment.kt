@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
@@ -35,6 +36,7 @@ class EditTransactionFragment : Fragment(R.layout.fragment_edit_transaction) {
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentEditTransactionBinding.bind(view)
         viewModel = (activity as MainActivity).viewModel
+        (activity as AppCompatActivity).supportActionBar?.title = "Edit Transaction"
         setUpViewWithData()
         binding.btnSaveTransaction.setOnClickListener {
             validateFields()

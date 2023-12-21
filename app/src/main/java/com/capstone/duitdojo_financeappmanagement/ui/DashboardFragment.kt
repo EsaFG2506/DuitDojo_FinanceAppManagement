@@ -8,7 +8,9 @@ import android.view.MenuInflater
 import android.view.MenuItem
 import android.view.View
 import android.view.animation.AnimationUtils
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
@@ -22,6 +24,7 @@ import com.capstone.duitdojo_financeappmanagement.ui.adapter.TransactionItemAdap
 import com.capstone.duitdojo_financeappmanagement.ui.login.LoginActivity
 import com.capstone.duitdojo_financeappmanagement.ui.viewmodel.MainViewModel
 import com.capstone.duitdojo_financeappmanagement.ui.viewmodel.TransactionsViewModel
+import com.capstone.duitdojo_financeappmanagement.ui.viewmodel.UserViewModelFactory
 import com.capstone.duitdojo_financeappmanagement.utils.currencyFormat
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.coroutines.launch
@@ -33,7 +36,9 @@ class DashboardFragment : Fragment(R.layout.fragment_dashboard) {
     private lateinit var binding: FragmentDashboardBinding
     private lateinit var adapter: TransactionItemAdapter
     private lateinit var viewModel: TransactionsViewModel
-    private lateinit var mainViewModel: MainViewModel
+    private val mainViewModel by viewModels<MainViewModel> {
+        UserViewModelFactory.getInstance(requireActivity().application)
+    }
 
     @Suppress("DEPRECATION")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,6 +50,9 @@ class DashboardFragment : Fragment(R.layout.fragment_dashboard) {
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentDashboardBinding.bind(view)
         viewModel = (activity as MainActivity).viewModel
+
+        (activity as AppCompatActivity).supportActionBar?.title = "Dashboard"
+
         setUpRecyclerView()
         setUpViews()
         swipeToDelete()

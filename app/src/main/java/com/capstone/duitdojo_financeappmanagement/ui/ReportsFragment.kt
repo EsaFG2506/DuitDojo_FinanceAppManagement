@@ -2,6 +2,7 @@ package com.capstone.duitdojo_financeappmanagement.ui
 
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.capstone.duitdojo_financeappmanagement.R
 import com.capstone.duitdojo_financeappmanagement.databinding.FragmentReportsBinding
@@ -18,6 +19,8 @@ class ReportsFragment : Fragment(R.layout.fragment_reports) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentReportsBinding.bind(view)
+
+        (requireActivity() as AppCompatActivity).supportActionBar?.title = "PieChart Report"
         setUpTabs()
     }
 

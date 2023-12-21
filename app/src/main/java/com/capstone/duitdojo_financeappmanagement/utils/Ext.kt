@@ -16,7 +16,7 @@ fun getCurrencySymbol(symbol: String): String =
         "EUR" -> "€"
         "GBP" -> "£"
         "JPY" -> "¥"
-        "INR" -> "₹"
+        "IDR" -> "Rp."
         "KRW" -> "₩"
         "SEK" -> "kr"
         "RUB" -> "₽"

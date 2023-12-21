@@ -158,4 +158,6 @@
     <string name="btnCamera">Camera</string>
     <string name="desc_upload">upload description</string>
     <string name="empty_image_warning">Silakan masukkan berkas gambar terlebih dahulu!</string>
+    <string name="url">Url</string>
+    <string name="news_content">News Content</string>
 </resources>

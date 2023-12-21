@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.findNavController
@@ -32,6 +33,7 @@ class AddTransactionFragment : Fragment(R.layout.fragment_add_transaction) {
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentAddTransactionBinding.bind(view)
         viewModel = (activity as MainActivity).viewModel
+        (activity as AppCompatActivity).supportActionBar?.title = "Add Transaction"
         setUpView()
     }
 

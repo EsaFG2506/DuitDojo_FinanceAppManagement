@@ -2,6 +2,7 @@ package com.capstone.duitdojo_financeappmanagement.ui
 
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
@@ -22,6 +23,7 @@ class TransactionDetailFragment : Fragment(R.layout.fragment_transaction_detail)
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentTransactionDetailBinding.bind(view)
         viewModel = (activity as MainActivity).viewModel
+        (activity as AppCompatActivity).supportActionBar?.title = "Detail Transaction"
         observeData()
     }
 
