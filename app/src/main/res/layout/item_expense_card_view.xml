@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:textAlignment="viewStart"
             app:layout_constraintBottom_toBottomOf="parent"
-            tools:text="$300"
+            tools:text="Rp. 20.000"
             android:fontFamily="@font/nunito_semibold"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
             android:textSize="20sp"

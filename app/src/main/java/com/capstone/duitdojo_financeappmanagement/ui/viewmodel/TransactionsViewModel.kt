@@ -26,6 +26,7 @@ class TransactionsViewModel(
     private val repository: TransactionsRepository,
     app: Application
 ) : AndroidViewModel(app) {
+
     private val Context.limitDataStore by preferencesDataStore("spending_limit")
     private val Context.UIdataStore by preferencesDataStore("UI_preference")
     private val limitDataStore = getApplication<TransactionApp>().limitDataStore
@@ -40,7 +41,7 @@ class TransactionsViewModel(
     private val _isWarningClosed = MutableLiveData(false)
     var isWarningClosed = _isWarningClosed
 
-    private val _selectedCurrency = MutableStateFlow("USD")
+    private val _selectedCurrency = MutableStateFlow("IDR")
     val selectedCurrency = _selectedCurrency
 
     suspend fun readUIPreference(key: String): Boolean? {

@@ -63,7 +63,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/iv_transaction_icon"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/iv_transaction_icon"
-            tools:text="- $ 19.99"
+            tools:text="- Rp. 19.000"
             tools:textColor="@android:color/holo_red_light" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
