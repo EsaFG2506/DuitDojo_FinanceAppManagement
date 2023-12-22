@@ -13,14 +13,19 @@ A Simple Finance Managemenet and Expense Tracker App with News to keep you updat
 
 ***Click to View DuitDojo app Design from below 👇***
 
-[![DuitDojo]]([https://www.figma.com/file/Z5KMfiwo9RYtYBUMRSIfHh/Expense-Tracker-App?node-id=140%3A1016](https://www.figma.com/file/6ZXL5xN1qZlo88tnjGGZSn/Capstone-Design?type=design&node-id=0%3A1&mode=design&t=JciwC3bienIHJXEn-1))
+[![DuitDojo]](https://www.figma.com/file/6ZXL5xN1qZlo88tnjGGZSn/Capstone-Design?type=design&node-id=0%3A1&mode=design&t=JciwC3bienIHJXEn-1)
 
 <br />
 
 ## Day Mode 🌞
 Slider | Login | Register | Dashboard(No Data) | Dashboard(Data) 
 --- | --- | --- |--- |--- 
+![](https://github.com/EsaFG2506/DuitDojo_FinanceAppManagement/blob/master/App%20SS/Slider%201.jpg) | ![](https://github.com/EsaFG2506/DuitDojo_FinanceAppManagement/blob/master/App%20SS/Login.jpg) | ![](https://github.com/EsaFG2506/DuitDojo_FinanceAppManagement/blob/master/App%20SS/Register.jpg) | ![](https://github.com/EsaFG2506/DuitDojo_FinanceAppManagement/blob/master/App%20SS/Dashboard%20(%20No%20Data%20).jpg) | ![](https://github.com/EsaFG2506/DuitDojo_FinanceAppManagement/blob/master/App%20SS/Dashboard(data)%20.jpg) 
+
+Slider | Login | Register | Dashboard(No Data) | Dashboard(Data) 
+--- | --- | --- |--- |--- 
 ![](https://github.com/Spikeysanju/Expenso/blob/master/art/DASHBOARD.png) | ![](https://github.com/Spikeysanju/Expenso/blob/master/art/INCOME.png) | ![](https://github.com/Spikeysanju/Expenso/blob/master/art/EXPENSE.png) | ![](https://github.com/Spikeysanju/Expenso/blob/master/art/DETAILS.png) | ![](https://github.com/Spikeysanju/Expenso/blob/master/art/ADD-TRANSACTION.png) 
+
 
 <br />
 
