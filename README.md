@@ -25,9 +25,10 @@ Slider | Login | Register | Dashboard(No Data) | Dashboard(Data)
 <br />
 
 ## We Support Dark Mode Too 🌚
+
 Dashboard | 
---- | --- | --- |--- |--- 
-![](https://github.com/Spikeysanju/Expenso/blob/master/art/DARK-DASHBOARD.png) | ![](https://github.com/Spikeysanju/Expenso/blob/master/art/DARK-INCOME.png) | ![](https://github.com/Spikeysanju/Expenso/blob/master/art/DARK-EXPENSE.png) | ![](https://github.com/Spikeysanju/Expenso/blob/master/art/DARK-DETAILS.png) | ![](https://github.com/Spikeysanju/Expenso/blob/master/art/DARK-ADD-TRANSACTION.png) 
+--- 
+![](https://github.com/Spikeysanju/Expenso/blob/master/art/DARK-DASHBOARD.png) |
 
 <br />
 
