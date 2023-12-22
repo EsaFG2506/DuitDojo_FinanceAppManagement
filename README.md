@@ -22,18 +22,18 @@ Slider | Login | Register | Dashboard(No Data) | Dashboard(Data)
 --- | --- | --- |--- |--- 
 ![](https://github.com/EsaFG2506/DuitDojo_FinanceAppManagement/blob/master/App%20SS/Slider%201.jpg) | ![](https://github.com/EsaFG2506/DuitDojo_FinanceAppManagement/blob/master/App%20SS/Login.jpg) | ![](https://github.com/EsaFG2506/DuitDojo_FinanceAppManagement/blob/master/App%20SS/Register.jpg) | ![](https://github.com/EsaFG2506/DuitDojo_FinanceAppManagement/blob/master/App%20SS/Dashboard%20(%20No%20Data%20).jpg) | ![](https://github.com/EsaFG2506/DuitDojo_FinanceAppManagement/blob/master/App%20SS/Dashboard(data)%20.jpg) 
 
-Slider | Login | Register | Dashboard(No Data) | Dashboard(Data) 
+Setting | News | Nota Scan | Report(Income) | Report(Expense)
 --- | --- | --- |--- |--- 
-![](https://github.com/Spikeysanju/Expenso/blob/master/art/DASHBOARD.png) | ![](https://github.com/Spikeysanju/Expenso/blob/master/art/INCOME.png) | ![](https://github.com/Spikeysanju/Expenso/blob/master/art/EXPENSE.png) | ![](https://github.com/Spikeysanju/Expenso/blob/master/art/DETAILS.png) | ![](https://github.com/Spikeysanju/Expenso/blob/master/art/ADD-TRANSACTION.png) 
+![](https://github.com/EsaFG2506/DuitDojo_FinanceAppManagement/blob/master/App%20SS/Register.jpg) | ![](https://github.com/EsaFG2506/DuitDojo_FinanceAppManagement/blob/master/App%20SS/News.jpg) | ![](https://github.com/EsaFG2506/DuitDojo_FinanceAppManagement/blob/master/App%20SS/Nota%20Scan%20(preview)%20.jpg) | ![](https://github.com/EsaFG2506/DuitDojo_FinanceAppManagement/blob/master/App%20SS/PieChart(income)%20.jpg) | ![](https://github.com/EsaFG2506/DuitDojo_FinanceAppManagement/blob/master/App%20SS/PieChart(Expense)%20.jpg) 
 
 
 <br />
 
 ## We Support Dark Mode Too 🌚
 
-Dashboard | 
+Dark Mode | 
 --- 
-![](https://github.com/Spikeysanju/Expenso/blob/master/art/DARK-DASHBOARD.png) |
+![](https://github.com/EsaFG2506/DuitDojo_FinanceAppManagement/blob/master/App%20SS/DarkMode.jpg) |
 
 <br />
 
@@ -42,7 +42,7 @@ Dashboard |
 - [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development.
 - [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - For asynchronous and more..
 - [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) - Collection of libraries that help you design robust, testable, and maintainable apps.
-  - [Stateflow](https://developer.android.com/kotlin/flow/stateflow-and-sharedflow) - StateFlow is a state-holder observable flow that emits the current and new state updates to its collectors. 
+  - [Retrofit](https://square.github.io/retrofit/) - A powerful HTTP client library for Android and Java. It simplifies communication with web services through HTTP, handles network requests, and converts responses into Java objects. 
   - [Flow](https://kotlinlang.org/docs/reference/coroutines/flow.html) - A flow is an asynchronous version of a Sequence, a type of collection whose values are lazily produced.
   - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - Stores UI-related data that isn't destroyed on UI changes. 
   - [Room](https://developer.android.com/topic/libraries/architecture/room) - SQLite object mapping library.
@@ -101,11 +101,6 @@ You need to have [Android Studio Beta 3 or above](https://developer.android.com/
 
 <br>
 
-## Ohh You want iOS App Too? 📱 
-Well, we've iOS version here, Checkout the iOS version of this app <a href="https://github.com/sameersyd/Expenso">Expenso</a>
-
-<br />
-
 ## Contribute 🤝
 If you want to contribute to this app, you're always welcome!
 See [Contributing Guidelines](https://github.com/Spikeysanju/Expenso/blob/master/CONTRIBUTION.md). 
@@ -119,17 +114,14 @@ Drop a mail to:- spikeysanju98@gmail.com
 
 <br>
 
-## Donation 💰
-If this project help you reduce time to develop, you can give me a cup of coffee :) 
+## Step by Step to Clone the App 🤗
 
-<a href="https://www.buymeacoffee.com/Li0hsl4" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+test
 
-<br>
-
+<br />
 
 ## Credits 🤗
 
-- 🤓 Icons are from [tablericons.com](https://tablericons.com) 
-- 📄 Thanks for [NotyKT](https://github.com/PatilShreyas/NotyKT)
+test
 
 <br />
