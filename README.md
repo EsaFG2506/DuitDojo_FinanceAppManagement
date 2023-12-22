@@ -1,5 +1,5 @@
 # DuitDojo 📊
-A Simple Finance Managemenet and Expense Tracker App with News to keep you update and Pie Chart to analyze your finance record 📱 Built entirely in Kotlin using modern architecture components. 🏗. *Made with love ❤️ by [DuitDojo Organization](https://github.com/orgs/DuitDojo-Capstone-Project/repositories)*
+A Simple Finance Managemenet and Expense Tracker App with News to keep you update and Pie Chart to analyze your finance record 📱 Built entirely in Kotlin using modern architecture components. 🏗. *Made with love ❤️ by [DuitDojo Organization](https://github.com/DuitDojo-Capstone-Project)*
 
 <br />
 
@@ -59,7 +59,7 @@ This app uses [***MVVM (Model View View-Model)***](https://developer.android.com
 ![](https://github.com/TheCodeMonks/Notes-App/blob/master/screenshots/ANDROID%20ROOM%20DB%20DIAGRAM.jpg)
 
 ## Build-tool 🧰
-You need to have [Android Studio Girafe](https://developer.android.com/studio/preview) to build this project.
+You need to have [Android Studio Giraffe | 2022.3.1](https://developer.android.com/studio?gclid=CjwKCAiAhJWsBhAaEiwAmrNyq4w47P-RLmkCa8HBvlcm-L-5e1HsVYCHVQ2Z4SnI2HI6LwOcbGyVFhoC7mcQAvD_BwE&gclsrc=aw.ds&hl=id) to build this project.
 <br>
 
 <br>
