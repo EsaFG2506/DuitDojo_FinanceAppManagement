@@ -61,7 +61,6 @@ This app uses [***MVVM (Model View View-Model)***](https://developer.android.com
 ## Build-tool 🧰
 You need to have [Android Studio Girafe](https://developer.android.com/studio/preview) to build this project.
 <br>
-<img src="./beta_android.png" height="200" alt="Beta-studio"/>
 
 <br>
 
@@ -69,7 +68,7 @@ You need to have [Android Studio Girafe](https://developer.android.com/studio/pr
 
 Have an project? Contact us at 👇
 
-Drop a mail to:- spikeysanju98@gmail.com
+Drop a mail to:- esafaizalg25@gmail.com
 
 <br>
 
