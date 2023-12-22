@@ -86,6 +86,7 @@ Drop a mail to:- esafaizalg25@gmail.com
 3. In the terminal, navigate to the directory where you want to store the project.
 4. Use the `git clone` command followed by the copied URL. It will look like this:
    ```bash
+   
    git clone https://github.com/DuitDojo-Capstone-Project/DuitDojo_FinanceAppManagement.git
 
 ## Opening the Project in Android Studio
