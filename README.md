@@ -24,7 +24,7 @@ Slider | Login | Register | Dashboard(No Data) | Dashboard(Data)
 
 Setting | News | Nota Scan | Report(Income) | Report(Expense)
 --- | --- | --- |--- |--- 
-![](https://github.com/EsaFG2506/DuitDojo_FinanceAppManagement/blob/master/App%20SS/Register.jpg) | ![](https://github.com/EsaFG2506/DuitDojo_FinanceAppManagement/blob/master/App%20SS/News.jpg) | ![](https://github.com/EsaFG2506/DuitDojo_FinanceAppManagement/blob/master/App%20SS/Nota%20Scan%20(preview)%20.jpg) | ![](https://github.com/EsaFG2506/DuitDojo_FinanceAppManagement/blob/master/App%20SS/PieChart(income)%20.jpg) | ![](https://github.com/EsaFG2506/DuitDojo_FinanceAppManagement/blob/master/App%20SS/PieChart(Expense)%20.jpg) 
+![](https://github.com/EsaFG2506/DuitDojo_FinanceAppManagement/blob/master/App%20SS/Setting.jpg) | ![](https://github.com/EsaFG2506/DuitDojo_FinanceAppManagement/blob/master/App%20SS/News.jpg) | ![](https://github.com/EsaFG2506/DuitDojo_FinanceAppManagement/blob/master/App%20SS/Nota%20Scan%20(preview)%20.jpg) | ![](https://github.com/EsaFG2506/DuitDojo_FinanceAppManagement/blob/master/App%20SS/PieChart(income)%20.jpg) | ![](https://github.com/EsaFG2506/DuitDojo_FinanceAppManagement/blob/master/App%20SS/PieChart(Expense)%20.jpg) 
 
 
 <br />
