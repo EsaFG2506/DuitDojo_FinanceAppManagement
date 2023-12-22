@@ -1,33 +1,31 @@
-![GitHub Cards Preview](https://github.com/Spikeysanju/Expenso/blob/master/art/EXPENSO-ANDROID.png?raw=true)
-
-# Expenso 📊
-A Simple Expense Tracker App 📱 built to demonstrate the use of modern android architecture component with MVVM Architecture 🏗. *Made with love ❤️ by [Spikeysanju](https://github.com/Spikeysanju)*
+# DuitDojo 📊
+A Simple Finance Managemenet and Expense Tracker App with News to keep you update and Pie Chart to analyze your finance record 📱 Built entirely in Kotlin using modern architecture components. 🏗. *Made with love ❤️ by [DuitDojo Organization](https://github.com/orgs/DuitDojo-Capstone-Project/repositories)*
 
 <br />
 
-***Try latest Expenso app apk from below 👇***
+***Try latest DuitDojo app apk from below 👇***
 
-[![Expenso](https://img.shields.io/badge/Expenso-APK-black.svg?style=for-the-badge&logo=android)](https://github.com/Spikeysanju/Expenso/releases/download/v1.0.0-alpha01/Expenso.apk)
+[![DuitDojo]](https://drive.google.com/file/d/14JGg7RGhqzaqvPfTlt0a0hVhqsRHGVOi/view?usp=sharing)
 
 <br />
 
 ## UI Design 🎨
 
-***Click to View Expenso app Design from below 👇***
+***Click to View DuitDojo app Design from below 👇***
 
-[![Expenso](https://img.shields.io/badge/Expenso-FIGMA-black.svg?style=for-the-badge&logo=figma)](https://www.figma.com/file/Z5KMfiwo9RYtYBUMRSIfHh/Expense-Tracker-App?node-id=140%3A1016)
+[![DuitDojo]]([https://www.figma.com/file/Z5KMfiwo9RYtYBUMRSIfHh/Expense-Tracker-App?node-id=140%3A1016](https://www.figma.com/file/6ZXL5xN1qZlo88tnjGGZSn/Capstone-Design?type=design&node-id=0%3A1&mode=design&t=JciwC3bienIHJXEn-1))
 
 <br />
 
 ## Day Mode 🌞
-Dashboard | All Income | All Expense | Details | Add Transaction 
+Slider | Login | Register | Dashboard(No Data) | Dashboard(Data) 
 --- | --- | --- |--- |--- 
 ![](https://github.com/Spikeysanju/Expenso/blob/master/art/DASHBOARD.png) | ![](https://github.com/Spikeysanju/Expenso/blob/master/art/INCOME.png) | ![](https://github.com/Spikeysanju/Expenso/blob/master/art/EXPENSE.png) | ![](https://github.com/Spikeysanju/Expenso/blob/master/art/DETAILS.png) | ![](https://github.com/Spikeysanju/Expenso/blob/master/art/ADD-TRANSACTION.png) 
 
 <br />
 
 ## We Support Dark Mode Too 🌚
-Dashboard | All Income | All Expense | Details | Add Transaction 
+Dashboard | 
 --- | --- | --- |--- |--- 
 ![](https://github.com/Spikeysanju/Expenso/blob/master/art/DARK-DASHBOARD.png) | ![](https://github.com/Spikeysanju/Expenso/blob/master/art/DARK-INCOME.png) | ![](https://github.com/Spikeysanju/Expenso/blob/master/art/DARK-EXPENSE.png) | ![](https://github.com/Spikeysanju/Expenso/blob/master/art/DARK-DETAILS.png) | ![](https://github.com/Spikeysanju/Expenso/blob/master/art/DARK-ADD-TRANSACTION.png) 
 
