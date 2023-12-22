@@ -65,14 +65,9 @@ You need to have [Android Studio Girafe](https://developer.android.com/studio/pr
 
 <br>
 
-## Contribute 🤝
-If you want to contribute to this app, you're always welcome!
-See [Contributing Guidelines](https://github.com/Spikeysanju/Expenso/blob/master/CONTRIBUTION.md). 
-
-<br>
-
 ## Contact 📩
-Have an project? DM us at 👇
+
+Have an project? Contact us at 👇
 
 Drop a mail to:- spikeysanju98@gmail.com
 
@@ -80,12 +75,53 @@ Drop a mail to:- spikeysanju98@gmail.com
 
 ## Step by Step to Clone the App 🤗
 
-test
+## Cloning and Using the Project
 
-<br />
+### Prerequisites
+- **Android Studio**: Ensure you have Android Studio installed on your system.
+- **Git**: Install Git to clone the project repository.
 
-## Credits 🤗
+### Cloning the Repository
+1. Open your terminal or Git Bash.
+2. Copy the repository URL by clicking on the "Code" button on GitHub and selecting "Clone with HTTPS."
+3. In the terminal, navigate to the directory where you want to store the project.
+4. Use the `git clone` command followed by the copied URL. It will look like this:
+   ```bash
+   git clone https://github.com/DuitDojo-Capstone-Project/DuitDojo_FinanceAppManagement.git
 
-test
+## Opening the Project in Android Studio
+
+### Prerequisites
+- **Android Studio**: Ensure you have Android Studio installed on your system.
+
+1. Launch Android Studio.
+2. Select "Open an existing Android Studio project" from the main menu.
+3. Navigate to the directory where you've stored the project.
+4. Select the project folder and click "Open" to import it into Android Studio.
+
+## Running the App
+
+### Prerequisites
+- **Android Studio**: The project must be open in Android Studio.
+
+1. Once the project is open, wait for Android Studio to sync and build it.
+2. Connect your Android device to your computer or use an emulator.
+3. In Android Studio's toolbar, select your device from the target device dropdown menu.
+4. Click the green "Run" button or press `Shift + F10` to build and run the app on your device/emulator.
+
+## Modifying and Contributing
+
+### Prerequisites
+- **Git**: Install Git to contribute to the project.
+
+- If you'd like to contribute or modify the project, create a new branch using `git checkout -b branch-name` before making changes.
+- After making changes, commit them using `git commit -m "your commit message"` and push to your forked repository using `git push origin branch-name`.
+- Finally, create a pull request from your branch on GitHub for review and merging.
+
+## Troubleshooting
+
+- If you encounter issues while setting up or running the app, refer to the project's issue tracker on GitHub or create a new issue for assistance.
+
+Feel free to explore the codebase, run the app, and contribute to the DuitDojo Finance App Management project. Happy coding!
 
 <br />
