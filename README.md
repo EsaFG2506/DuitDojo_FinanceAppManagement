@@ -91,9 +91,6 @@ Drop a mail to:- spikeysanju98@gmail.com
 
 ## Opening the Project in Android Studio
 
-### Prerequisites
-- **Android Studio**: Ensure you have Android Studio installed on your system.
-
 1. Launch Android Studio.
 2. Select "Open an existing Android Studio project" from the main menu.
 3. Navigate to the directory where you've stored the project.
@@ -101,18 +98,12 @@ Drop a mail to:- spikeysanju98@gmail.com
 
 ## Running the App
 
-### Prerequisites
-- **Android Studio**: The project must be open in Android Studio.
-
 1. Once the project is open, wait for Android Studio to sync and build it.
 2. Connect your Android device to your computer or use an emulator.
 3. In Android Studio's toolbar, select your device from the target device dropdown menu.
 4. Click the green "Run" button or press `Shift + F10` to build and run the app on your device/emulator.
 
 ## Modifying and Contributing
-
-### Prerequisites
-- **Git**: Install Git to contribute to the project.
 
 - If you'd like to contribute or modify the project, create a new branch using `git checkout -b branch-name` before making changes.
 - After making changes, commit them using `git commit -m "your commit message"` and push to your forked repository using `git push origin branch-name`.
